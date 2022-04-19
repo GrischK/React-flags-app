@@ -31,3 +31,29 @@ h1 {
   height: 3px;
   width: 50px;
 }
+
+.logo {
+  margin-top: 30px;
+  width: 100px;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.countries {
+  color: lightblue;
+}
+
+.countries ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countries li {
+  padding: 5px;
+}

@@ -6,13 +6,13 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Nav from "./Components/Nav";
 import Logo from "./Components/Logo";
+import Countries from "./Components/Countries";
 
 function App() {
   return (
     <BrowserRouter>
       <Logo/>
       <Nav />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
