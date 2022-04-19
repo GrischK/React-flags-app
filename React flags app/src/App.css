@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: lightblue; 
+}
+
+.nav a{
+  color: white;
+  font-weight:bold ;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-active {
+  position: relative;
+  padding: 1rem;
+  color: lightblue;
+  font-weight:bold ;
+  text-decoration: none;
+}
+
+.nav-active::after {
+  content: "";
+  position: absolute;
+  top: 38px;
+  left: 13px;
+  background-color: lightblue;
+  height: 3px;
+  width: 50px;
+}
