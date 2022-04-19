@@ -4,8 +4,8 @@ export default function Nav() {
     return (
         <div>
             <ul className="nav">
-                <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>Home</NavLink>
-                <NavLink to="/about"  className={(nav) => (nav.isActive ? "nav-active" : "")}>About</NavLink>
+                <li><NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>Home</NavLink></li>
+                <li><NavLink to="/about"  className={(nav) => (nav.isActive ? "nav-active" : "")}>About</NavLink></li>
             </ul>
         </div>
     )
